@@ -1,6 +1,7 @@
 package M08_DataHora;
 
 //      import java.time.Instant;
+import java.time.Instant;
 import java.time.LocalDate;
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
@@ -11,7 +12,7 @@ public class A02_dataHora_paraTexto {
 
         LocalDate d04 = LocalDate.parse("2025-07-18");
         LocalDateTime d05 = LocalDateTime.parse("2025-07-18T16:14:00");
-        //      Instant d06 = Instant.parse("2025-07-18T16:14:00Z");
+        Instant d06 = Instant.parse("2025-07-18T16:14:00Z");
 
         // FORMATANDO DATA para sair da forma que foi solicitado "x/xx/xxxx"
         DateTimeFormatter fmt1 = DateTimeFormatter.ofPattern("dd/MM/yyyy");
@@ -25,7 +26,7 @@ public class A02_dataHora_paraTexto {
         System.out.println("d05 = " + d05.format(fmt1));
         System.out.println("d05 = " + d05.format(fmt2));
 
-       //System.out.println("d06 = " + d06.format(fmt1));
+        //System.out.println("d06 = " + d06.format(fmt1));
 
     }
 }
