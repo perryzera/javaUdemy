@@ -1,6 +1,6 @@
 package M08_DataHora;
 
-import org.w3c.dom.ls.LSOutput;
+//import org.w3c.dom.ls.LSOutput;
 import java.time.Duration;
 import java.time.Instant;
 import java.time.LocalDate;

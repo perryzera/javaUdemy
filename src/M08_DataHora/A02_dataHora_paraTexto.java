@@ -12,7 +12,7 @@ public class A02_dataHora_paraTexto {
 
         LocalDate d04 = LocalDate.parse("2025-07-18");
         LocalDateTime d05 = LocalDateTime.parse("2025-07-18T16:14:00");
-        Instant d06 = Instant.parse("2025-07-18T16:14:00Z");
+        // Instant d06 = Instant.parse("2025-07-18T16:14:00Z");
 
         // FORMATANDO DATA para sair da forma que foi solicitado "x/xx/xxxx"
         DateTimeFormatter fmt1 = DateTimeFormatter.ofPattern("dd/MM/yyyy");
